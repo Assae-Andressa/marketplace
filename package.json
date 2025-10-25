@@ -4,17 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "lint:fix": "eslint . --fix",
-  "preview": "vite preview",
-  "server": "json-server --watch data/db.json",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-  "format": "prettier --write \"src/**/*.{js,jsx,json,css,md}\"",
-  "format:check": "prettier --check \"src/**/*.{js,jsx,json,css,md}\""
-},
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vite build && gh-pages -d dist",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "preview": "vite preview",
+    "server": "json-server --watch data/db.json",
+    "predeploy": "npm run build",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css,md}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,json,css,md}\""
+  },
   "dependencies": {
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",

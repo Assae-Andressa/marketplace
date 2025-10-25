@@ -17,7 +17,7 @@ function App() {
   const [carrinho, setCarrinho] = useState([]);
 
   //carregar produtos do bd
-{/*  useEffect(() => {
+/*  useEffect(() => {
     const fetchProdutos = async () => {
       const res = await fetch(url);
       const data = await res.json();
@@ -25,7 +25,7 @@ function App() {
     };
 
     fetchProdutos();
-  }, []);*/}
+  }, []);*/
 
   //carregar produtos do arquivo JSON
   useEffect(() => {
