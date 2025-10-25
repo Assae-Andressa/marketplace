@@ -7,14 +7,14 @@ import Carrinho from "./page/Carrinho";
 import FinalizarCompra from "./page/FinalizarCompra";
 import DetalheProduto from "./page/DetalheProduto";
 import NotFound from "./page/NotFound";
-import produtosData from "./data/produtos.json"
+import produtosData from "./data/produtos.json";
 //const url = "http://localhost:3000/produtos";
 function App() {
   const [produtos, setProdutos] = useState([]);
   const [carrinho, setCarrinho] = useState([]);
 
   //carregar produtos do bd
-/*  useEffect(() => {
+  /*  useEffect(() => {
     const fetchProdutos = async () => {
       const res = await fetch(url);
       const data = await res.json();

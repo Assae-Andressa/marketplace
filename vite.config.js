@@ -9,5 +9,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/marketplace/',
+  base: "/marketplace/",
 });

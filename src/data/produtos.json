@@ -2,37 +2,37 @@
   {
     "id": 1,
     "nome": "Notebook Dell",
-    "valor": 3500.00,
+    "valor": 3500.0,
     "classificacao": 4.5
   },
   {
     "id": 2,
     "nome": "Mouse Gamer",
-    "valor": 150.00,
+    "valor": 150.0,
     "classificacao": 4.8
   },
   {
     "id": 3,
     "nome": "Teclado Mecânico",
-    "valor": 450.00,
+    "valor": 450.0,
     "classificacao": 4.7
   },
   {
     "id": 4,
     "nome": "Monitor 24\"",
-    "valor": 800.00,
+    "valor": 800.0,
     "classificacao": 4.6
   },
   {
     "id": 5,
     "nome": "Webcam HD",
-    "valor": 250.00,
+    "valor": 250.0,
     "classificacao": 4.3
   },
   {
     "id": 6,
     "nome": "Headset",
-    "valor": 200.00,
+    "valor": 200.0,
     "classificacao": 2.4
   }
 ]
