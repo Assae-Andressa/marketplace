@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "./App.css";
-
 import Navbar from "./components/Navbar";
 import Home from "./page/Home";
 import Carrinho from "./page/Carrinho";
@@ -9,9 +8,7 @@ import FinalizarCompra from "./page/FinalizarCompra";
 import DetalheProduto from "./page/DetalheProduto";
 import NotFound from "./page/NotFound";
 import produtosData from "./data/produtos.json"
-
 //const url = "http://localhost:3000/produtos";
-
 function App() {
   const [produtos, setProdutos] = useState([]);
   const [carrinho, setCarrinho] = useState([]);
